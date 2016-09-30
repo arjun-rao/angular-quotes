@@ -1,19 +1,16 @@
-Weekend Projects
+Weekend Project #1- Angular-Quotes
 ================
 
- 
-
-What?
-=====
-
-A repository of projects created over weekends for learning new technologies.
+A simple AngularJS app - for serving up quotes by famous people stored in a Firebase DB
 
  
 
-Projects
+Installation
 ========
+- Install nodejs, npm, angular-cli
+- Clone the repo. 
+- Run ng serve
 
--   Weekend \#1 - 30th September 2016 - Angular Quotes
 
          
 
