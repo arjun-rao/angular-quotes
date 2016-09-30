@@ -14,7 +14,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  
+  <script>
+  // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
 
 </head>
 
@@ -34,6 +43,6 @@
 </div>
   <app-root>Loading...</app-root>
 
-<script type="text/javascript" src="inline.js"></script><script type="text/javascript" src="styles.33f7bdc58eba5bcdfbd6.bundle.js"></script><script type="text/javascript" src="main.9085a1f91a1de2bc1028.bundle.js"></script></body>
+<script type="text/javascript" src="inline.js"></script><script type="text/javascript" src="styles.33f7bdc58eba5bcdfbd6.bundle.js"></script><script type="text/javascript" src="main.9c447811f0f2137b8a61.bundle.js"></script></body>
 
 </html>
