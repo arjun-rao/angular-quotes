@@ -1,0 +1,11 @@
+h2 { color: #444; font-weight: lighter; }
+
+body, input[text], button { color: #888; font-family: Cambria, Georgia; }
+button {padding: 0.2em; font-size: 14px}
+
+.quotes
+{
+    list-style-type: none;
+    scroll-behavior: auto;
+    max-height: 200px;
+}
